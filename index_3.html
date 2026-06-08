@@ -6,6 +6,16 @@
         <meta name="keywords" content="покупка,телефон,дёшево">
         <meta name="description" content="AliexpressOMANIA - покупайте с умом и очень дёшево">
         <title>AliexpressOMANIA</title>
+        <script>
+                (function () {
+                        try {
+                                var theme = localStorage.getItem('site-theme');
+                                if (theme === 'light' || theme === 'dark') {
+                                        document.documentElement.setAttribute('data-theme', theme);
+                                }
+                        } catch (error) {}
+                })();
+        </script>
         <link rel="stylesheet" href="css/jquery.fancybox.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon.png">
@@ -48,6 +58,8 @@
                         <nav class="container_navigation">
 
                                 <a href="#" title="перейти на главную страницу"></a>
+                                <button class="theme_toggle" type="button" aria-label="Переключить тему"
+                                        title="Переключить тему" data-next-theme="dark"></button>
 
                         </nav>
                 </header>
@@ -1251,6 +1263,7 @@
         </div>
         <script src="js/jquery-3.4.1.js"></script>
         <script src="js/jquery.fancybox.js"></script>
+        <script src="js/theme.js"></script>
 </body>
 
 </html>
