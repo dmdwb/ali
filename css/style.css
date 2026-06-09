@@ -7,11 +7,11 @@
   --surface-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
   --brand-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
   --brand-color: #2b1111;
-  --brand-hover: #b13232;
+  --brand-hover: #b15700;
   --hero-text: #ffffff;
   --button-bg: #ffffff;
-  --button-border: #2b1111;
-  --button-text: #2b1111;
+  --button-border: #843a00;
+  --button-text: #843a00;
   --section-border: #2b1111;
   --card-shadow: rgba(43, 17, 17, 0.12);
   --footer-border: rgba(43, 17, 17, 0.18);
