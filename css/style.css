@@ -9,7 +9,7 @@
   --brand-color: #2b1111;
   --brand-hover: #b13232;
   --hero-text: #ffffff;
-  --button-bg: #ffffff;
+  --button-bg: #843a00;
   --button-border: #2b1111;
   --button-text: #2b1111;
   --section-border: #2b1111;
@@ -25,12 +25,12 @@
     color-scheme: dark;
     --page-bg: #171313;
     --text-color: #f7efea;
-    --surface-bg: #332929;
-    --brand-bg: #3a1717;
+    --surface-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
+    --brand-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
     --brand-color: #ffd6cc;
     --brand-hover: #ff9a87;
     --hero-text: #ffffff;
-    --button-bg: #382c2c;
+    --button-bg: #843a00;
     --button-border: #ffd6cc;
     --button-text: #fff2ee;
     --section-border: #81534d;
@@ -51,7 +51,7 @@
   --brand-color: #ffd6cc;
   --brand-hover: #ff9a87;
   --hero-text: #ffffff;
-  --button-bg: #382c2c;
+  --button-bg: #843a00;
   --button-border: #ffd6cc;
   --button-text: #fff2ee;
   --section-border: #81534d;
@@ -111,8 +111,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
+  width: 50px;
+  height: 50px;
   border: 2px solid var(--button-border);
   border-radius: 50%;
   background-color: var(--button-bg);
