@@ -9,7 +9,7 @@
   --brand-color: #2b1111;
   --brand-hover: #b13232;
   --hero-text: #ffffff;
-  --button-bg: #843a00;
+  --button-bg: #ffffff;
   --button-border: #2b1111;
   --button-text: #2b1111;
   --section-border: #2b1111;
@@ -111,8 +111,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
+  width: 54px;
+  height: 54px;
   border: 2px solid var(--button-border);
   border-radius: 50%;
   background-color: var(--button-bg);
