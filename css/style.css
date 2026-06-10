@@ -20,7 +20,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --page-bg: #171313;
+    --page-bg: #000000;
     --text-color: #f7efea;
     --surface-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
     --brand-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
