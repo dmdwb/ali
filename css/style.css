@@ -383,6 +383,11 @@ footer {
   margin-left: 10px;
 }
 
+.email span {
+  font-size: 14px;
+  margin: 0 auto;
+}
+
 .projects {
   display: flex;
 }
