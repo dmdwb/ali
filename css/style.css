@@ -25,10 +25,9 @@
     --surface-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
     --brand-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
     --brand-color: #ffd6cc;
-    --brand-hover: #ff9a87;
+    --brand-hover: #A9A9A9;
     --hero-text: #ffffff;
     --button-bg: #843a00;
-    --button-border: #ffd6cc;
     --button-text: #fff2ee;
     --section-border: #81534d;
     --card-shadow: rgba(0, 0, 0, 0.45);
@@ -43,10 +42,9 @@
   --surface-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
   --brand-bg: linear-gradient(90deg, rgb(196, 69, 0) 5%, rgb(105, 54, 0) 95%);
   --brand-color: #ffd6cc;
-  --brand-hover: #ff9a87;
+  --brand-hover: #A9A9A9;
   --hero-text: #ffffff;
   --button-bg: #843a00;
-  --button-border: #ffd6cc;
   --button-text: #fff2ee;
   --section-border: #81534d;
   --card-shadow: rgba(0, 0, 0, 0.45);
